@@ -6,7 +6,7 @@ const gorFirstNum = +prompt ('Enter the first number', ' '),
 let   maxSymbol = String((gorSecondNum * verSecondNum)).length, // количество символов в максимальном результате
       sumSymbol = String(verSecondNum).length, // количество символов в  последнем вертикальном числе
       space = "&numsp;", // пробел
-      hyphen = "&ndash;"; //дефиз
+      hyphen = "&ndash;"; //длинный дефиз
 
 //Создание резервных переменных которые будут менять свои значения
 let xGorFirstNum = gorFirstNum,
